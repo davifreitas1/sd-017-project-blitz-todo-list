@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/davifreitas1/sd-017-project-blitz-todo-list/issues"
   },
-  "homepage": "https://github.com/davifreitas1/sd-017-project-blitz-todo-list#readme"
+  "homepage": "https://github.com/davifreitas1/sd-017-project-blitz-todo-list#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "sequelize-cli": "^6.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2"
+  }
 }
