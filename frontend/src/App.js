@@ -1,12 +1,9 @@
 import './App.css';
+import TaskTable from './components/TaskTable';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <p>Iniciando projeto</p>
-      </header>
-    </div>
+    <TaskTable />
   );
 }
 
