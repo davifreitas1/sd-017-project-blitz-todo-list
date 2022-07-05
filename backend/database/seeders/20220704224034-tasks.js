@@ -12,7 +12,7 @@ module.exports = {
       {
         task: 'Atualizar as planilhas',
         status: 'pendente',
-        uiserId: 2,
+        userId: 2,
       },
     ]);
   },

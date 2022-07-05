@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
     id: { type: DataTypes.INTEGER, autoIncrement: true, primaryKey: true },
     task: DataTypes.STRING,
     status: DataTypes.STRING,
-    userId: DataTypes.STRING,
+    userId: DataTypes.INTEGER,
   }, { timestamps: true });
 
   Task.associate = (models) => {
