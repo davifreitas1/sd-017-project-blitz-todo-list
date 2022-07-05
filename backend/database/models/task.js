@@ -4,6 +4,8 @@ module.exports = (sequelize, DataTypes) => {
     task: DataTypes.STRING,
     status: DataTypes.STRING,
     userId: DataTypes.INTEGER,
+    createdAt: DataTypes.DATE,
+    updatedAt: DataTypes.DATE,
   }, { timestamps: true });
 
   Task.associate = (models) => {
